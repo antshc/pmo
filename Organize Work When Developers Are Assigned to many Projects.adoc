@@ -1,0 +1,121 @@
+= Best Practices to Organize Work When Developers Are Assigned to 3+ Projects
+
+This document describes a practical framework used by PMOs in outsourcing companies where developers are assigned to *multiple concurrent projects*. The practices below help reduce chaos, improve predictability, and increase focus while maintaining high utilization.
+
+== 1. Create a Single Weekly Allocation Plan (Capacity Matrix)
+
+Every week, define a clear allocation of each developer's time across all active projects.
+
+=== Weekly Allocation Table (Example)
+
+|===
+| Developer | Project A | Project B | Project C | Bench/Other
+
+| Dev1 | 50% | 30% | 20% | 0%
+| Dev2 | 100% | 0% | 0% | 10% support
+| Dev3 | 30% | 50% | 20% | 
+|===
+
+=== Rules
+* Never plan more than *85%* of capacity to leave room for meetings, support, and unexpected work.
+* Always assign a *primary project* (≥60% focus when possible).
+* Developers must know their “#1 priority” for the week.
+
+This minimizes harmful context switching.
+
+== 2. Weekly Planning Ceremony (PMO–Developer Sync)
+
+A short, structured weekly meeting where each developer answers three questions:
+1. What are your priorities by project this week?
+2. What blocks you?
+3. Do you have enough capacity or are you overloaded?
+
+The PMO:
+* Resolves priority conflicts.
+* Adjusts allocation percentages.
+* Communicates final weekly priorities to all PMs and stakeholders.
+
+== 3. Tiered Priority System
+
+Define a shared prioritization model for all projects:
+
+=== Priority Tiers
+* *Tier 1 – Critical:* deadlines, escalations, SLA items.
+* *Tier 2 – Important:* major deliverables but not urgent.
+* *Tier 3 – Low priority:* minor tasks, internal activities.
+
+A Tier 1 task always overrides lower tiers.
+
+== 4. Use Kanban Instead of Sprint Planning
+
+Scrum becomes inefficient when developers support multiple projects. Kanban with WIP limits is a more effective model.
+
+=== Recommendations
+* Use personal or cross-project Kanban boards.
+* Limit WIP to *1–2 active tasks* per developer.
+* Developers pull tasks from the highest-priority project.
+
+This reduces context switching and increases flow efficiency.
+
+== 5. Monthly Rolling Forecast
+
+Maintain a 4–8 week forecast of developer allocation to improve planning and predictability.
+
+=== Rolling Forecast Example
+
+|===
+| Developer | Jan W1 | Jan W2 | Jan W3 | Jan W4 | Feb W1
+
+| Dev1 | Project A | Project A | Project B | Project B | Project C
+| Dev2 | Project A | Project A | Project A | Project A | Project A
+| Dev3 | Project C | Project C | Project A | Project A | Project B
+|===
+
+This helps manage future workloads and identify availability early.
+
+== 6. Use Shared Tools to Ensure Visibility
+
+Recommended toolset:
+* *Jira or Azure DevOps:* Tasks, boards, workload dashboards.
+* *MS Teams or Slack:* Communication channels per project.
+* *Excel/Google Sheets:* Weekly allocation matrix (source of truth).
+
+PMO should maintain:
+* Weekly allocation sheet.
+* Risk register.
+* Developer availability calendar.
+* Project priority list.
+
+== 7. Limit Context Switching
+
+Splitting a developer across too many projects per week destroys productivity.
+
+=== Guidelines
+* Prefer no more than *2 projects per developer per week*.
+* Use weekly blocks: e.g.,  
+  **Mon–Tue → Project A**,  
+  **Wed → Project B**,  
+  **Thu → Project C**,  
+  **Fri → catch-up**.
+
+== 8. Implement Focus Hours
+
+Protect *2–3 hours/day* for uninterrupted work.  
+Developers disable notifications and focus on deep work.
+
+== 9. Track Context-Switching Costs
+
+Each project switch costs *20–40 minutes* of cognitive reset.
+
+Use this as an argument to push back when stakeholders request “just one small task”.
+
+== 10. Summary: The Three Most Important Practices
+
+If you implement only three elements, you will solve 90% of the issues:
+
+* *One weekly allocation plan.*
+* *One shared prioritization model.*
+* *Kanban with strict WIP limits.*
+
+Everything else is a scaling improvement.
+
